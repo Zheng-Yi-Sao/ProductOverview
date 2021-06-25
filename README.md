@@ -16,7 +16,15 @@
 
 ## Usage
 
-> Some usage instructions
+> The current setup is for a service running by Docker container. 
+> To run locally without Docker:
+> 1. Git clone the repo
+> 2. Run npm install
+> 3. Comment out line 4 - 9 in ProductOverview/database/index.js, use line 11 - 16
+> 4. Run npm seed to seed the data
+> 5. Replace environment variables with local host and the desired port
+> 6. Run npm start
+>
 
 ## Requirements
 
